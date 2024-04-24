@@ -13,6 +13,11 @@ gradlePlugin {
             id = "org.ivcode.gradle.projectfile"
             implementationClass = "org.ivcode.gradle.projectfile.ProjectFilePlugin"
         }
+
+        register("ProjectFileSettings") {
+            id = "org.ivcode.gradle.projectfile.settings"
+            implementationClass = "org.ivcode.gradle.projectfile.ProjectFileSettingsPlugin"
+        }
     }
 }
 
